@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+header p {
+    margin: 0;
+    color: #777;
+}
+
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    color: #333;
+}
+
+.summary p, .education p, .education h3, .skills ul, .experience article {
+    margin-left: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 5px;
+}
+
+article h3 {
+    margin-top: 0;
+}

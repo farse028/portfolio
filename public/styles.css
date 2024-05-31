@@ -16,7 +16,9 @@
     padding: 10px;
     color: black;
     text-decoration: none;
-    width: 35%;
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
 }
 
 #projects {
