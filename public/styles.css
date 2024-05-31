@@ -1,3 +1,6 @@
+. {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .resumes {
     display: flex;
@@ -26,5 +29,5 @@
 }
 
 .resume:hover {
-    border: 5px solid #4B9CD3;
+    border: 5px solid #7BAFD4;
 }
