@@ -1,3 +1,3 @@
 ## CSI3140 Portfolio 
-Aiden Garrett
-Felix Arsene
+- Aiden Garrett
+- Felix Arsene
