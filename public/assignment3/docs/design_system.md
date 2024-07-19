@@ -40,3 +40,10 @@
 ![screenshot of scorecard](/docs/assets/design_system/screenshots/partialFilledScorecard.png)
 ### Screenshot of gameboard with no rolls left
 ![screenshot of scorecard](/docs/assets/design_system/screenshots/gameboard.png)
+### Leaderboard
+#### Empty leaderboard
+![screenshot of empty leaderboard](/docs/assets/design_system/screenshots/emptyLeaderboard.png)
+#### Partially filled leaderboard
+![screenshot of empty leaderboard](/docs/assets/design_system/screenshots/partialLeaderboard.png)
+#### Filled leaderboard to max (10 items)
+![screenshot of empty leaderboard](/docs/assets/design_system/screenshots/filledLeaderboard.png)

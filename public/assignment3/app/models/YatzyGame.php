@@ -290,7 +290,7 @@ class YatzyGame
      */
     public function resetGame(): void
     {
-        $this->rollsRemaining = 3;
+        $this->rollsRemaining = 2;
         $this->diceStates = [new Dice(), new Dice(), new Dice(), new Dice(), new Dice()];
         $this->keepers = [false, false, false, false, false];
         $this->scoreState = [

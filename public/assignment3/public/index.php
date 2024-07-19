@@ -36,6 +36,16 @@ $app->get('/api/leaderboard', function (Request $request, Response $response, $a
     return $response->withHeader('Content-Type', 'application/json');
 });
 
+$app->get('/api/leaderboard/{n}', function (Request $request, Response $response, $args) {
+
+    $leaderboard = $_SESSION["game"]->getLeaderboard();
+    $leaderboard = array_slice($leaderboard, 0, $args['n']);
+    $response->getBody()->write(json_encode($leaderboard));
+    return $response->withHeader('Content-Type', 'application/json');
+});
+
+
+
 $app->get('/api/roll', function (Request $request, Response $response, $args) {
     // fill me in
 //    $d = new Dice();
@@ -100,7 +110,7 @@ $app->post('/api/newGame', function (Request $request, Response $response, $args
 });
 
 $app->run();
-////
+//run////
 //session_destroy();
 
 //<!--// prev lab-->

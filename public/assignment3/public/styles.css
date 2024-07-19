@@ -43,7 +43,7 @@ footer {
 
 @font-face {
     font-family: 'revue';
-    src: url('/public/assets/RevueStd.ttf');
+    src: url('./assets/RevueStd.ttf');
 }
 
 h1 {
@@ -66,6 +66,10 @@ h1 {
     background-color: black;
     border-radius: 50%;
     margin: 5px;
+}
+
+#leaderboardSection {
+    text-align: center;
 }
 
 #diceOutput {
