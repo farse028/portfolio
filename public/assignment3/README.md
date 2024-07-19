@@ -2,9 +2,9 @@
 [Design System](docs/design_system.md)
 
 ## Running the game
-1. Ensure node.js is installed (to use npm)
-2. In the root directory run npx http-server. This will start a server on localhost:8080.
-   To view the website visit localhost:8080/test.html
+1. Have php installed.
+2. Open a terminal in the php directory and run `php -S localhost:4000` (can substutite 4000 for whatever port you desire). Note that in the portfolio it assumes that the php server is running on localhost:4000.
+3. In a browser visit http://localhost:4000 (or whatever port you entered) 
 
 ## Rules
 You have up to 3 rolls per turn. In each turn you can choose which dice you keep (the rest are rerolled).
