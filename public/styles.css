@@ -35,6 +35,8 @@ body {
 #projects {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 .project {
     border: 2px solid black;
